@@ -1,0 +1,50 @@
+/* Write media queries here as usual */
+@media (max-width: 1440px) {
+  html {
+    font-size: 58%;
+  }
+}
+
+@media (max-width: 475px) {
+  html {
+    font-size: 62.5%;
+  }
+
+  body {
+    padding: 4rem 0rem;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", serif;
+    color: hsl(234, 12%, 34%);
+  }
+
+  header h1 {
+    font-weight: 200;
+    font-size: 2.35rem;
+    margin-bottom: 1.5rem;
+    line-height: 3rem;
+  }
+
+  header p {
+    font-size: 1.5rem;
+    width: 30rem;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    align-items: center;
+  }
+
+  .second-column {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+}

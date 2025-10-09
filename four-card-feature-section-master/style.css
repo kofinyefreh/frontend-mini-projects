@@ -1,0 +1,104 @@
+/* Write main styling here as usual */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", serif;
+  color: hsl(234, 12%, 34%);
+}
+
+/* header */
+header {
+  text-align: center;
+}
+
+header h1 {
+  font-weight: 200;
+  font-size: 3.2rem;
+  margin-bottom: 1.5rem;
+  line-height: 4.5rem;
+}
+
+header h1 span {
+  font-weight: 600;
+  color: hsl(212, 6%, 44%);
+}
+
+header p {
+  font-size: 1.5rem;
+  width: 50rem;
+  margin: 0 auto;
+  margin-bottom: 6rem;
+}
+
+/* card */
+.cards {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+
+.second-column {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.card {
+  width: 32rem;
+  padding: 3rem;
+  box-shadow: 0px 10px 20px rgb(105, 112, 119, 0.2);
+  border-radius: 5px;
+}
+
+.card h2 {
+  font-size: 2rem;
+  color: hsl(212, 6%, 44%);
+  border-bottom: 1.5rem;
+}
+
+.card p {
+  font-size: 1.2rem;
+  line-height: 2rem;
+  margin-bottom: 3rem;
+  color: hsl(212, 6%, 44%);
+}
+
+.card div {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.card img {
+  width: 20%;
+  margin-bottom: 1rem;
+}
+
+.card--supervisor {
+  border-top: 4px solid hsl(180, 62%, 55%);
+}
+
+.card--team-builder {
+  border-top: 4px solid hsl(0, 78%, 62%);
+}
+
+.card--karma {
+  border-top: 4px solid hsl(34, 97%, 64%);
+}
+
+.card--calculator {
+  border-top: 4px solid hsl(212, 86%, 64%);
+}
