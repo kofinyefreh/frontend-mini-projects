@@ -21,7 +21,7 @@ This repository serves as:
 |-----------|----------------------|
 | **Core** | HTML5, CSS3, Vanilla JavaScript |
 | **Styling** | Flexbox, CSS Grid, Responsive Design |
-| **Optional Add-ons** | Tailwind CSS / SCSS (for select projects) |
+| **Optional Add-ons** | Tailwind CSS |
 | **Version Control** | Git & GitHub |
 | **Preview** | Live Server / GitHub Pages |
 
